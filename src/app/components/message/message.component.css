@@ -1,0 +1,39 @@
+.title {
+    font-size: 30px;
+    color: #3B5876;
+}
+
+.status {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.msg {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    margin: 10px;
+}
+
+.read .msg {
+    background-color: rgba(250, 250, 250, 0.7)
+}
+
+.messageText {
+    opacity: 0.4;
+}
+
+.sender {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4099ff;
+}
+
+.more {
+    font-weight: bold;
+    color: #4099ff;
+    margin-right: 20px;
+    cursor: pointer;
+    text-align: right;
+}
