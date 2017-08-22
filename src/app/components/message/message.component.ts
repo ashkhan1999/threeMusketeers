@@ -16,7 +16,7 @@ export class MessageComponent  {
   }
 
   reading() {
-    
+
   }
 
 }
@@ -27,5 +27,5 @@ interface Message{
   answered: boolean;
   sender: string;
   mtext: string;
-  read: boolean;
+  read: boolean
 }
