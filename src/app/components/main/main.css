@@ -3,18 +3,21 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
-
+.container {
+	margin-left: 50px;
+}
 h4 {
 	font-weight: bold;
 	font-size: 24px;
 	position: relative;
 	margin-top: 20px;
-	padding-left: 35px;
+	padding-left: 55px;
 	position: relative;
 	top: 20px;
+	width: 255px;
+	margin-bottom: 10px;
 }
-h4 {
-}
+
 .menu {
 	background-color: #01D1D9;
 	margin: 20px;
@@ -30,6 +33,9 @@ h4 {
 	font-size: 16px;
 	color: #fff;
 }
+.goto {
+	margin-top: 8px;
+}
 .goto a {
 	color: #fff;
 	text-decoration: none;
@@ -41,9 +47,12 @@ h4 {
 	background-color: #276470;
 }
 
-.userinfo {
+.userinfo span {
 	color: #000;
 	font-size: 16px;
+	position: relative;
+	bottom: 20px;
+	left: 10px;
 }
 
 .userinfo  img{
@@ -57,7 +66,6 @@ h4 {
 }
 .moreinfo {
 	float: right;
-	display: inline-block;
 }
 .moreinfo button{
 	height: 20px;
@@ -87,8 +95,9 @@ h4 {
 	margin-top: 15px;
 	border-radius: 5px;
 	position: relative;
-	left: 248px;
-	bottom: 300px;
+	left: 300px;
+	bottom: 340px;
+
 
 	}
 

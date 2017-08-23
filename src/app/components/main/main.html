@@ -3,11 +3,10 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="appname"><h4>APP_NAME</h4></div>
+			<h4>APP_NAME</h4>
 			<div class="menu">
 
-				<div class="userinfo"><img src="img/default-user-image.png">Name Surname<div class="moreinfo"><button><img src="img/dropdownbtn.png"></button></div></div>
+				<div class="userinfo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpWMOVHeFzDQhg3e7gzqgJLdRYQ44EgxKM5B2XMNSDhxptbN7AE-re6aE"><span>Name Surname</span><div class="moreinfo"><button><img src="dropdownbtn.png"></button></div></div>
 
 				<div class="goto">
 					<i class="fa fa-home" aria-hidden="true"></i>
@@ -15,7 +14,7 @@
 				</div>
 				<div class="goto">
 					<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-					<a routerLink="/appointment">Appointments</a>
+					<a routerLink="/appointments">Appointments</a>
 				</div>
 				<div class="goto">
 					<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
@@ -26,13 +25,10 @@
 					<a routerLink="/messages">Messages</a>
 				</div>
 			</div>
-		</div>	
-			<div class="rightside">
 				<div class="greyspace">
 					<div class="selected">
 							<router-outlet></router-outlet>
 						</div>
 				</div>
-			</div>
 	</div>
 </body>

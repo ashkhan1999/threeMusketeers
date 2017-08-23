@@ -1,0 +1,40 @@
+p {
+	margin-left: 20px;
+}
+.mon2{
+	position: relative;
+	top: 110px;
+}
+.mon3 {
+	position: relative;
+	top: 220px;
+}
+.mon1, .mon2, .mon3 {
+	width: 35px;
+	border-right: 5px solid blue;
+}
+.calendar {
+	border-left: 5px solid #01D1D9;
+	margin-left: 55px;
+	margin-top: 10px;
+	position: relative;
+	bottom: 100px;
+}
+.calendar span {
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bolder;
+	position: relative;
+	bottom: 5px;
+	left: 5px;
+}
+.unconfirmed, .upcoming {
+	width: 660px;
+	height: 110px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+
+}
+
