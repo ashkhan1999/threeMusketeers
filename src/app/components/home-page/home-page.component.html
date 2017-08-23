@@ -1,0 +1,18 @@
+<body>
+    <div class="home"> 
+    <h2> Home </h2>
+    <button> Add an Appointment </button>
+<div class="container"> 
+    <div id="day"> <b><a href="">Today</a></b> </div> 
+    
+    <div *ngFor="let d of data | async" class="curAppointments">
+        <div> 
+    <p id="time"> {{d.time}} <b> {{d.name}} </b> </p>
+    <img src="{{d.image}}">
+    <p id="address"> <b> {{d.institution}} </b> <br /> {{d.address}} <br /> {{d.city}} <br /> {{d.number}} </p>
+    <p id="instructions"> <b> Instructions from clinic </b> <br /> {{d.instructions}}. </p>
+        </div>
+    </div>
+    </div> 
+    </div>
+    </body>

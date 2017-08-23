@@ -2,13 +2,13 @@ import {ModuleWithProviders} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
 import {AppComponent} from './app.component';
-import {HomeComponent} from './components/home/home.component';
+import {HomePageComponent} from './components/home-page/home-page.component';
 import {MessageComponent} from './components/message/message.component';
 
 const appRoutes: Routes = [
     {
         path: '',
-        component: HomeComponent
+        component: HomePageComponent
     },
     {
         path: 'messages',

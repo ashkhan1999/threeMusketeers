@@ -1,11 +1,11 @@
 "use strict";
 var router_1 = require("@angular/router");
-var home_component_1 = require("./components/home/home.component");
+var home_page_component_1 = require("./components/home-page/home-page.component");
 var message_component_1 = require("./components/message/message.component");
 var appRoutes = [
     {
         path: '',
-        component: home_component_1.HomeComponent
+        component: home_page_component_1.HomePageComponent
     },
     {
         path: 'messages',
