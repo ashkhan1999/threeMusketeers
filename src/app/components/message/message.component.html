@@ -5,25 +5,27 @@
     </head>
     <body> 
         <p class="title">Messages</p>   
-        <p class="status">UNREAD</p>
-        <div *ngFor="let message of messages">
-            <div *ngIf="!message.read" class="unread">
-                <div class="msg" >
-                    <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.sender}}</p>
-                    <p class='sender'>{{message.sender}}</p>
-                    <p class="messageText">{{message.mtext}}</p>
-                    <p class="more" (click)="reading()">more &#62;</p>
+        <div class="context">
+            <p class="status">UNREAD</p>
+            <div *ngFor="let message of messages">
+                <div *ngIf="!message.read" class="unread">
+                    <div class="msg" >
+                        <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.sender}}</p>
+                        <p class='sender'>{{message.sender}}</p>
+                        <p class="messageText">{{message.mtext}}</p>
+                        <p class="more">more &#62;</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <p class="status">PAST</p>
-        <div *ngFor="let message of messages">
-            <div *ngIf="message.read" class="read">
-                <div class="msg">
-                    <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.answered ? "you" : message.sender}}</p>
-                    <p class='sender'>{{message.sender}}</p>
-                    <p class="messageText">{{message.mtext}}</p>
-                    <p class="more" (click)="reading()">more &#62;</p>
+            <p class="status">PAST</p>
+            <div *ngFor="let message of messages">
+                <div *ngIf="message.read" class="read">
+                    <div class="msg">
+                        <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.answered ? "you" : message.sender}}</p>
+                        <p class='sender'>{{message.sender}}</p>
+                        <p class="messageText">{{message.mtext}}</p>
+                        <p class="more">more &#62;</p>
+                    </div>
                 </div>
             </div>
         </div>

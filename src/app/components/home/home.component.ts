@@ -4,4 +4,7 @@ import { Component } from '@angular/core';
   selector: 'home',
   template: `This is Home`,
 })
-export class HomeComponent  {  }
+export class HomeComponent  {  
+  constructor() {
+  }
+}

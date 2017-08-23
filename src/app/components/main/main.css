@@ -89,7 +89,7 @@ h4 {
 	position: relative;
 	left: 248px;
 	bottom: 300px;
-
+	overflow-y: auto;
 	}
 
 .selected {

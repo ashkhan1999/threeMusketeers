@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MessageServices } from '../../services/message.service';
+import { Router } from '@angular/router';
 
 @Component({
   moduleId: module.id,
@@ -13,10 +14,6 @@ export class MessageComponent  {
     this.messageService.getMessages().subscribe(messages => {
       this.messages = messages;
     });
-  }
-
-  reading() {
-
   }
 
 }

@@ -1,3 +1,7 @@
+body {
+    font-size: 12px;
+}
+
 .title {
     font-size: 30px;
     color: #3B5876;
@@ -14,6 +18,11 @@
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
     margin: 10px;
+}
+
+.context {
+    overflow-y: auto;
+    height: 530px;
 }
 
 .read .msg {

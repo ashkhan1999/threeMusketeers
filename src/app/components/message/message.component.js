@@ -18,8 +18,6 @@ var MessageComponent = (function () {
             _this.messages = messages;
         });
     }
-    MessageComponent.prototype.reading = function () {
-    };
     return MessageComponent;
 }());
 MessageComponent = __decorate([
