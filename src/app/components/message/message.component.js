@@ -17,7 +17,16 @@ var MessageComponent = (function () {
         this.messageService.getMessages().subscribe(function (messages) {
             _this.messages = messages;
         });
+        this.moreMessages = false;
     }
+    MessageComponent.prototype.showMore = function () {
+        if (this.moreMessages === true) {
+            return this.moreMessages = false;
+        }
+        else {
+            return this.moreMessages = true;
+        }
+    };
     return MessageComponent;
 }());
 MessageComponent = __decorate([
