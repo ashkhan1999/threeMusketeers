@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var message_service_1 = require("../../services/message.service");
+var message_service_1 = require("../../services/message/message.service");
 var MessageComponent = (function () {
     function MessageComponent(messageService) {
         var _this = this;
@@ -17,8 +17,15 @@ var MessageComponent = (function () {
         this.messageService.getMessages().subscribe(function (messages) {
             _this.messages = messages;
         });
+        this.moreMessages = false;
     }
-    MessageComponent.prototype.reading = function () {
+    MessageComponent.prototype.showMore = function () {
+        if (this.moreMessages) {
+            return this.moreMessages = false;
+        }
+        else {
+            return this.moreMessages = true;
+        }
     };
     return MessageComponent;
 }());

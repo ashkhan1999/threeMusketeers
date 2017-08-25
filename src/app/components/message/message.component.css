@@ -1,3 +1,7 @@
+body {
+    font-size: 12px;
+}
+
 .title {
     font-size: 30px;
     color: #3B5876;
@@ -14,6 +18,11 @@
     border-radius: 20px;
     padding: 5px 20px 5px 20px;
     margin: 10px;
+}
+
+.context {
+    overflow-y: auto;
+    height: 530px;
 }
 
 .read .msg {
@@ -36,4 +45,13 @@
     margin-right: 20px;
     cursor: pointer;
     text-align: right;
+}
+
+.viewMore {
+    float: right;
+    cursor: pointer;
+    color: #4099ff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 5px;
 }

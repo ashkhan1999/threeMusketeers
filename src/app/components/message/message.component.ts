@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { MessageServices } from '../../services/message.service';
+import { MessageServices } from '../../services/message/message.service';
+import { Router } from '@angular/router';
 
 @Component({
   moduleId: module.id,
@@ -9,14 +10,20 @@ import { MessageServices } from '../../services/message.service';
 })
 export class MessageComponent  {
   messages: Message[];
+  moreMessages: boolean;
   constructor(private messageService: MessageServices){
     this.messageService.getMessages().subscribe(messages => {
       this.messages = messages;
     });
+    this.moreMessages = false;
   }
 
-  reading() {
-
+  showMore(){
+    if(this.moreMessages){
+      return this.moreMessages = false;
+    } else{
+      return this.moreMessages = true;
+    }
   }
 
 }
@@ -24,8 +31,8 @@ export class MessageComponent  {
 interface Message{
   id: number;
   date: string;
-  answered: boolean;
+  isAnswered: boolean;
   sender: string;
   mtext: string;
-  read: boolean;
+  isRead: boolean;
 }
