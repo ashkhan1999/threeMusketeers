@@ -1,0 +1,23 @@
+<body>
+    <div> 
+    <h2> Home </h2>
+    <button class="add-appointment"> Add an Appointment </button>
+
+    <div class="home-container"> 
+    <div class="day-week-month"> 
+        <button class="sections" id="active-section"> <b> Today </b> </button> 
+        <button class="sections" routerLink="/appointment"> <b> Week </b> </button>
+        <button class="sections"> <b> Month </b> </button>
+    </div> 
+    
+    <div *ngFor="let d of data | async" class="currentAppointments">
+        <div> 
+    <p class="time"> {{d.time}} <b> {{d.name}} </b> </p>
+    <img class="image-map" src="{{d.image}}">
+    <p class="address"> <b> {{d.institution}} </b> <br /> {{d.address}} <br /> {{d.city}} <br /> {{d.number}} </p>
+    <p class="instructions"> <b> Instructions from clinic </b> <br /> {{d.instructions}}. </p>
+        </div>
+    </div>
+    </div> 
+    </div>
+    </body>

@@ -11,20 +11,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var http_1 = require("@angular/http");
 var Rx_1 = require("rxjs/Rx");
-var HomePageService = (function () {
-    function HomePageService(http) {
+var HomeService = (function () {
+    function HomeService(http) {
         this.http = http;
     }
-    HomePageService.prototype.getInfo = function () {
+    HomeService.prototype.getHomeInfo = function () {
         return this.http.get('./assets/home.json')
             .map(function (res) { return res.json(); })
             .catch(function (error) { return Rx_1.Observable.throw(error.json().error || 'Server error'); });
     };
-    return HomePageService;
+    return HomeService;
 }());
-HomePageService = __decorate([
+HomeService = __decorate([
     core_1.Injectable(),
     __metadata("design:paramtypes", [http_1.Http])
-], HomePageService);
-exports.HomePageService = HomePageService;
-//# sourceMappingURL=home-page.service.js.map
+], HomeService);
+exports.HomeService = HomeService;
+//# sourceMappingURL=home.service.js.map

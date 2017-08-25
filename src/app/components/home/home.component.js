@@ -9,23 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var home_page_service_1 = require("../../services/home-page.service");
-var HomePageComponent = (function () {
-    function HomePageComponent(service) {
+var home_service_1 = require("../../services/home.service");
+var HomeComponent = (function () {
+    function HomeComponent(service) {
         this.service = service;
-        this.data = service.getInfo();
-        console.log("HomeComponent.data:" + this.data);
+        this.data = service.getHomeInfo();
     }
-    return HomePageComponent;
+    return HomeComponent;
 }());
-HomePageComponent = __decorate([
+HomeComponent = __decorate([
     core_1.Component({
-        selector: 'home-page',
-        templateUrl: './home-page.component.html',
-        styleUrls: ['./home-page.component.css'],
-        providers: [home_page_service_1.HomePageService]
+        selector: 'home',
+        templateUrl: './home.component.html',
+        styleUrls: ['../../main/main.css'],
+        providers: [home_service_1.HomeService]
     }),
-    __metadata("design:paramtypes", [home_page_service_1.HomePageService])
-], HomePageComponent);
-exports.HomePageComponent = HomePageComponent;
-//# sourceMappingURL=home-page.component.js.map
+    __metadata("design:paramtypes", [home_service_1.HomeService])
+], HomeComponent);
+exports.HomeComponent = HomeComponent;
+//# sourceMappingURL=home.component.js.map
