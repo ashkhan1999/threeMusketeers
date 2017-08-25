@@ -2,7 +2,7 @@
     {
         "id": 1,
         "date": "Dec 6, 2014",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": false
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "date": "Nov 25, 2014",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Pepper",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": false
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "date": "Jan 6, 2015",
-        "answered": true,
+        "isAnswered": true,
         "sender": "Dr. Bill",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "date": "Dec 30, 2014",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Matt",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": false
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "date": "Dec 6, 2014",
-        "answered": true,
+        "isAnswered": true,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "date": "Dec 7, 2014",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "date": "Dec 20, 2014",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": false
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "date": "Dec 16, 2014",
-        "answered": true,
+        "isAnswered": true,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "date": "Oct 3, 2014",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -82,7 +82,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -90,7 +90,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -98,7 +98,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -106,7 +106,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -114,7 +114,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -122,7 +122,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -130,7 +130,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -138,7 +138,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -146,7 +146,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -154,7 +154,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -162,7 +162,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -170,7 +170,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -178,7 +178,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -186,7 +186,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -194,7 +194,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -202,7 +202,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -210,7 +210,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -218,7 +218,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -226,7 +226,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -234,7 +234,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -242,7 +242,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -250,7 +250,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true
@@ -258,7 +258,7 @@
     {
         "id": 3,
         "date": "Jan 1, 2015",
-        "answered": false,
+        "isAnswered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
         "isRead": true

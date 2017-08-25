@@ -8,7 +8,7 @@
         <div class="context">
             <p class="status">UNREAD</p>
             <div *ngFor="let message of messages">
-                <div *ngIf="!message.read" class="unread">
+                <div *ngIf="!message.isRead" class="unisRead">
                     <div class="msg" >
                         <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.sender}}</p>
                         <p class='sender'>{{message.sender}}</p>
@@ -21,9 +21,9 @@
             <div *ngFor="let i=index">
                 <div *ngIf="i<=10; else moreThanTen">
                     <div *ngFor="let message of messages">
-                        <div *ngIf="message.read" class="read">
+                        <div *ngIf="message.isRead" class="isRead">
                             <div class="msg">
-                                <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.answered ? "you" : message.sender}}</p>
+                                <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
                                 <p class='sender'>{{message.sender}}</p>
                                 <p class="messageText">{{message.mtext}}</p>
                                 <p class="more">more &#62;</p>
@@ -35,9 +35,9 @@
             <div #moreThanTen>
                 <div *ngIf="!moreMessages">
                     <div *ngFor="let message of messages | slice:0:10">
-                        <div *ngIf="message.read" class="read">
+                        <div *ngIf="message.isRead" class="isRead">
                             <div class="msg">
-                                <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.answered ? "you" : message.sender}}</p>
+                                <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
                                 <p class='sender'>{{message.sender}}</p>
                                 <p class="messageText">{{message.mtext}}</p>
                                 <p class="more">more &#62;</p>
@@ -47,9 +47,9 @@
                 </div>
                 <div *ngIf="moreMessages">
                         <div *ngFor="let message of messages">
-                            <div *ngIf="message.read" class="read">
+                            <div *ngIf="message.isRead" class="isRead">
                                 <div class="msg">
-                                    <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.answered ? "you" : message.sender}}</p>
+                                    <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
                                     <p class='sender'>{{message.sender}}</p>
                                     <p class="messageText">{{message.mtext}}</p>
                                     <p class="more">more &#62;</p>

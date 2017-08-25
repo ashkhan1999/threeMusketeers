@@ -31,8 +31,8 @@ export class MessageComponent  {
 interface Message{
   id: number;
   date: string;
-  answered: boolean;
+  isAnswered: boolean;
   sender: string;
   mtext: string;
-  read: boolean;
+  isRead: boolean;
 }
