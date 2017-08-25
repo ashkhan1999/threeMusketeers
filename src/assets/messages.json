@@ -5,7 +5,7 @@
         "answered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": false
+        "isRead": false
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "answered": false,
         "sender": "Dr. Pepper",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": false
+        "isRead": false
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "answered": true,
         "sender": "Dr. Bill",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "answered": false,
         "sender": "Dr. Matt",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": false
+        "isRead": false
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "answered": true,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "answered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "answered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": false
+        "isRead": false
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "answered": true,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "answered": false,
         "sender": "Dr. Dre",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -85,7 +85,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -93,7 +93,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -101,7 +101,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -109,7 +109,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -117,7 +117,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -125,7 +125,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -133,7 +133,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -141,7 +141,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -149,7 +149,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -157,7 +157,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -165,7 +165,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -173,7 +173,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -181,7 +181,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -189,7 +189,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -197,7 +197,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -205,7 +205,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -213,7 +213,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -221,7 +221,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -229,7 +229,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -237,7 +237,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -245,7 +245,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -253,7 +253,7 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     },
     {
         "id": 3,
@@ -261,6 +261,6 @@
         "answered": false,
         "sender": "Dr. Lee",
         "mtext": "Hi, bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla",
-        "read": true
+        "isRead": true
     }
 ]
