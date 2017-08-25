@@ -19,7 +19,7 @@ export class MessageComponent  {
   }
 
   showMore(){
-    if(this.moreMessages === true){
+    if(this.moreMessages){
       return this.moreMessages = false;
     } else{
       return this.moreMessages = true;

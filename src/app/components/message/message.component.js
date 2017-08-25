@@ -20,7 +20,7 @@ var MessageComponent = (function () {
         this.moreMessages = false;
     }
     MessageComponent.prototype.showMore = function () {
-        if (this.moreMessages === true) {
+        if (this.moreMessages) {
             return this.moreMessages = false;
         }
         else {
