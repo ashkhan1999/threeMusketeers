@@ -1,8 +1,8 @@
-
 body{
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 16px;
 }
+
 .container {
 	margin-left: 50px;
 }
@@ -28,25 +28,32 @@ h4 {
 	display: inline-block;
 }
 
-.goto {
+.navigation-bar {
 	padding: 5px;
 	font-size: 16px;
 	color: #fff;
 }
-.goto {
+.navigation-bar {
 	margin-top: 8px;
 }
-.goto a {
+.navigation-bar a {
 	color: #fff;
 	text-decoration: none;
 }
-.goto i {
+.navigation-bar i {
 	padding-right: 5px;
 }
-.goto:hover {
+.navigation-bar:hover {
 	background-color: #276470;
 }
-
+// .navigation-bar.active {
+// 	background-color: red;
+// }
+.dropdown {
+	position: relative;
+	top: 7px;
+	right: 25px;
+}
 .userinfo span {
 	color: #000;
 	font-size: 16px;
@@ -97,8 +104,6 @@ h4 {
 	position: relative;
 	left: 300px;
 	bottom: 340px;
-
-
 	}
 
 .selected {

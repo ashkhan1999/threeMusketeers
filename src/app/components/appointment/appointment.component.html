@@ -1,0 +1,33 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="appointment.component.css">
+</head>
+<body>
+<div class="container">
+	<div class="greyspace">
+		<div class="selected">Appointments<router-outlet></router-outlet></div>
+			<div class="calendarofevents"></div>
+				<div class="unconfirmed"> Unconfirmed</div>
+				<div *ngFor = "let appointment of appointmentList | async" class="month">{{appointment.month}}</div>
+				<div  class="calendar">
+				<!-- <div>{{appointment.month}}</div> -->
+					<div *ngFor = "let appointment of appointmentList | async" class="appointment">
+
+						<div *ngIf="appointment.isUnconfirmed">
+
+						<p class="date-and-summary"><b>{{appointment.date}}</b> &bull; {{appointment.summary}}</p>
+						<p class="name">{{appointment.name}}</p>
+						<p class="description">{{appointment.description}} <button class="more"><a href="#"> more &#62;</a></button></p>
+						</div>
+						
+						<div *ngIf="!appointment.isUnconfirmed">
+						<!-- <div class="upcoming">Upcoming</div> -->
+						<p class="date-and-summary"><b>{{appointment.date}}</b> &bull; {{appointment.summary}}</p>
+						<p class="name">{{appointment.name}}</p>
+						<p class="description">{{appointment.description}} <button class="more"><a href="#"> more &#62;</a></button></p>
+						</div>
+					</div>
+		        </div>    	
+	</div>
+</div>
+</body>
+

@@ -11,20 +11,26 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require("@angular/core");
 var http_1 = require("@angular/http");
 var Rx_1 = require("rxjs/Rx");
-var AppointmentsService = (function () {
-    function AppointmentsService(http) {
+var AppointmentService = (function () {
+    function AppointmentService(http) {
         this.http = http;
     }
-    AppointmentsService.prototype.getInfo = function () {
-        return this.http.get('./assets/appointments.json')
-            .map(function (res) { return res.json(); })
+    AppointmentService.prototype.getInfo = function () {
+        return this.http.get('./assets/appointment.json')
+            .map(function (res) { return res.json(); }) // TODO: map to Apppointement
             .catch(function (error) { return Rx_1.Observable.throw(error.json().error || 'Server error'); });
     };
-    return AppointmentsService;
+    return AppointmentService;
 }());
-AppointmentsService = __decorate([
+AppointmentService = __decorate([
     core_1.Injectable(),
     __metadata("design:paramtypes", [http_1.Http])
-], AppointmentsService);
-exports.AppointmentsService = AppointmentsService;
-//# sourceMappingURL=appointments.service.js.map
+], AppointmentService);
+exports.AppointmentService = AppointmentService;
+var Appointment = (function () {
+    function Appointment() {
+    }
+    return Appointment;
+}());
+exports.Appointment = Appointment;
+//# sourceMappingURL=appointment.service.js.map

@@ -9,23 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var appointments_service_1 = require("../../services/appointments.service");
-var AppointmentsComponent = (function () {
-    function AppointmentsComponent(service) {
-        this.service = service;
-        this.data = service.getInfo();
-        console.log("AppointmentsComponent.data:" + this.data);
+var appointment_service_1 = require("../../services/appointment.service");
+var AppointmentComponent = (function () {
+    function AppointmentComponent(appointmentService) {
+        this.appointmentList = appointmentService.getInfo();
+        console.log("AppointmentComponent.data:" + this.appointmentList);
     }
-    return AppointmentsComponent;
+    return AppointmentComponent;
 }());
-AppointmentsComponent = __decorate([
+AppointmentComponent = __decorate([
     core_1.Component({
-        selector: 'appointments',
-        templateUrl: './appointments.component.html',
-        styleUrls: ['./appointments.component.css'],
-        providers: [appointments_service_1.AppointmentsService]
+        selector: 'appointment',
+        templateUrl: './appointment.component.html',
+        styleUrls: ['./appointment.component.css'],
+        providers: [appointment_service_1.AppointmentService]
     }),
-    __metadata("design:paramtypes", [appointments_service_1.AppointmentsService])
-], AppointmentsComponent);
-exports.AppointmentsComponent = AppointmentsComponent;
-//# sourceMappingURL=appointments.component.js.map
+    __metadata("design:paramtypes", [appointment_service_1.AppointmentService])
+], AppointmentComponent);
+exports.AppointmentComponent = AppointmentComponent;
+//# sourceMappingURL=appointment.component.js.map

@@ -2,7 +2,7 @@
 var router_1 = require("@angular/router");
 var home_component_1 = require("./components/home/home.component");
 var message_component_1 = require("./components/message/message.component");
-var appointments_component_1 = require("./components/appointments/appointments.component");
+var appointment_component_1 = require("./components/appointment/appointment.component");
 var appRoutes = [
     {
         path: '',
@@ -13,8 +13,8 @@ var appRoutes = [
         component: message_component_1.MessageComponent
     },
     {
-        path: 'appointments',
-        component: appointments_component_1.AppointmentsComponent
+        path: 'appointment',
+        component: appointment_component_1.AppointmentComponent
     }
 ];
 exports.routing = router_1.RouterModule.forRoot(appRoutes);
