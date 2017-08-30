@@ -11,7 +11,9 @@ var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./components/home/home.component");
 var message_component_1 = require("./components/message/message.component");
-// import { AppointmentsComponent } from './components/appointments/appointments.component'
+
+var appointment_component_1 = require("./components/appointment/appointment.component");
+
 var app_routing_1 = require("./app.routing");
 var AppModule = (function () {
     function AppModule() {
@@ -21,7 +23,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule, http_1.HttpModule, app_routing_1.routing],
-        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, message_component_1.MessageComponent],
+        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, message_component_1.MessageComponent, appointment_component_1.AppointmentComponent],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

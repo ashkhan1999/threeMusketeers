@@ -1,0 +1,75 @@
+.month {
+	font-size: 14px;
+	height: 20px;
+	width: 40px;
+	border-right: 5px solid blue;
+	margin-bottom: 110px;
+	position: relative;
+	right: 20px;
+	// overflow: hidden;
+}
+.calendar {
+	border-left: 5px solid #01D1D9;
+	margin-left: 20px;
+	margin-top: 100px;
+	display: inline-block;
+	position: absolute;
+	bottom: 170px;
+
+}
+.calendar span {
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bolder;
+	position: relative;
+	bottom: 5px;
+	left: 5px;
+}
+.unconfirmed {
+	margin-left: 40px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000;
+}
+.upcoming {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000;
+	position: relative;
+	bottom: 20px;
+	margin-bottom: -20px;
+	margin-top: 10px;
+	// padding-top: 10px;
+	// padding-bottom: 10px;
+}
+.appointment {
+	background-color: #fff;
+	color: #000;
+	margin: 20px 0px 10px 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 5px; 
+	font-size: 15px;
+	width: 660px;
+	height: 115px;
+}
+
+.name {
+	font-size: 18px;
+	color: #01D1D9;
+}
+
+.more {
+	float: right;
+	color: #01D1D9;
+	background-color: #fff;
+	border: 0px;
+}
+.more a {
+	text-decoration: none;
+	color: #01D1D9;
+}
+.more a:hover {
+	cursor: pointer;
+}

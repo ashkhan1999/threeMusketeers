@@ -5,12 +5,13 @@ body{
 .container {
 	margin-left: 50px;
 }
+
 h4 {
 	font-weight: bold;
 	font-size: 24px;
 	position: relative;
 	margin-top: 20px;
-	padding-left: 35px;
+	padding-left: 55px;
 	position: relative;
 	top: 20px;
 	width: 255px;
@@ -27,23 +28,39 @@ h4 {
 	display: inline-block;
 }
 
-.goto {
+.navigation-bar {
 	padding: 5px;
 	font-size: 16px;
 	color: #fff;
 }
+
 .goto {
 	margin-top: 8px;
 }
-.goto a {
+
+.navigation-bar {
+	margin-top: 8px;
+}
+.navigation-bar a {
 	color: #fff;
 	text-decoration: none;
 }
-.goto i {
+.navigation-bar i {
 	padding-right: 5px;
 }
-.goto:hover {
+.navigation-bar:hover {
 	background-color: #276470;
+}
+
+
+.navigation-bar.active {
+background-color: red;
+ }
+
+.dropdown {
+	position: relative;
+	top: 7px;
+	right: 25px;
 }
 
 .userinfo span {
