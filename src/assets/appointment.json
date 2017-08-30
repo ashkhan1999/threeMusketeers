@@ -1,0 +1,29 @@
+[
+	{
+	"month": "Jan",
+	"isUnconfirmed": true,	
+	"isUpcoming": false,
+    "name" : "Anual Meeting",	
+	"date" : "Jan 11 2017",
+	"summary": "short summary",
+	"description" : "Optional object-specific content. This content is typically up to teo lines of text,but may also be graphycal content, or may be ommited entirely, as described elsewhere in this file... "
+},
+{
+	"month": "Dec",
+	"isUnconfirmed": true,	
+	"isUpcoming": false,
+	"name": "Fellow-Up",
+	"date" : "Jan 11 2017",
+	"summary": "short summary",
+	"description" : "Optional object-specific content. This content is typically up to teo lines of text,but may also be graphycal content, or may be ommited entirely, as described elsewhere in this file... "
+},
+{	
+	"month": "Nov",
+	"isUnconfirmed": false,
+	"isUpcoming": true,
+	"name": "Eye Exam",
+	"date" : "Dec 04 2017",
+	"summary": "short summary",
+	"description" : "Optional object-specific content. This content is typically up to teo lines of text,but may also be graphycal content, or may be ommited entirely, as described elsewhere in this file... "
+}
+]

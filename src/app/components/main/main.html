@@ -1,32 +1,33 @@
-
+<head>
+	<link rel="stylesheet" href="./main.css">
+</head>
+<body>
 	<div class="container">
-		<div class="row">
-			<div class="appname"><h4>APP_NAME</h4></div>
+			<h4>APP_NAME</h4>
 			<div class="menu">
 
-				<div class="userinfo"><img src="img/default-user-image.png">Name Surname<div class="moreinfo"><button><img src="img/dropdownbtn.png"></button></div></div>
+				<div class="userinfo"><img src="../../../main.img/default-user-image.png"><span>Name Surname</span><div class="moreinfo"><button class="dropdown"><img src="../../../main.img/dropdownbtn.png"></button></div></div>
 
-				<div class="goto">
+				<div class="navigation-bar">
 					<i class="fa fa-home" aria-hidden="true"></i>
-					<a href="#">Home</a>
+					<a routerLink="/">Home</a>
 				</div>
-				<div class="goto">
+				<div class="navigation-bar">
 					<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
-					<a href="#">Appointments</a>
+					<a routerLink="/appointment">Appointments</a>
 				</div>
-				<div class="goto">
-					<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-					<a href="#">Personal Notes</a>
+				<div class="navigation-bar"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+					<a routerLink="/">Personal Notes</a>
 				</div>
-				<div class="goto">
+				<div class="navigation-bar">
 					<i class="fa fa-comments-o" aria-hidden="true"></i>
-					<a href="#">Messages</a>
+					<a routerLink="/messages">Messages</a>
 				</div>
 			</div>
-		</div>	
-			<div class="rightside">
 				<div class="greyspace">
-					<div class="selected">Selected Page</div>
+					<div class="selected">
+							<router-outlet></router-outlet>
+						</div>
 				</div>
-			</div>
 	</div>
+</body>

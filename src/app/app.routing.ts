@@ -2,16 +2,22 @@ import {ModuleWithProviders} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
 import {AppComponent} from './app.component';
+import {HomeComponent} from './components/home/home.component';
 import {MessageComponent} from './components/message/message.component';
+import { AppointmentComponent } from './components/appointment/appointment.component';
 
 const appRoutes: Routes = [
+    {
+        path: '',
+        component: HomeComponent
+    },
     {
         path: 'messages',
         component: MessageComponent
     },
     {
-        path: '',
-        component: AppComponent
+    	path: 'appointment',
+    	component: AppointmentComponent
     }
 ];
 
