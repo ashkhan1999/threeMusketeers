@@ -1,0 +1,22 @@
+[  
+  {
+    "time": "3:15 - 4:15pm",
+    "name": "Follow-up with Dr. Vasquez",
+	"image": "./assets/map.png",
+    "institution": "Leaf Medical",
+    "address": "18 Adams street",
+    "city": "Brooklyn, NY 11201", 
+    "number": "(718) 285-3035",
+	"instructions": "Have a light meal before your appointment"
+  },
+  {
+    "time": "3:15 - 4:15pm",
+    "name": "Follow-up with Dr. Vasquez",
+	"image": "./assets/map.png",
+    "institution": "Leaf Medical",
+    "address": "18 Adams street",
+    "city": "Brooklyn, NY 11201", 
+    "number": "(718) 285-3035",
+	"instructions": "Have a light meal before your appointment"
+  }
+]

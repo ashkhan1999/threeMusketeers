@@ -9,22 +9,22 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var home_service_1 = require("../../services/home.service");
-var HomeComponent = (function () {
-    function HomeComponent(service) {
-        this.service = service;
-        this.data = service.getHomeInfo();
+var http_1 = require("@angular/http");
+var Rx_1 = require("rxjs/Rx");
+var HomeService = (function () {
+    function HomeService(http) {
+        this.http = http;
     }
-    return HomeComponent;
+    HomeService.prototype.getHomeInfo = function () {
+        return this.http.get('./assets/home.json')
+            .map(function (res) { return res.json(); })
+            .catch(function (error) { return Rx_1.Observable.throw(error.json().error || 'Server error'); });
+    };
+    return HomeService;
 }());
-HomeComponent = __decorate([
-    core_1.Component({
-        selector: 'home',
-        templateUrl: './home.component.html',
-        styleUrls: ['../../main/main.css'],
-        providers: [home_service_1.HomeService]
-    }),
-    __metadata("design:paramtypes", [home_service_1.HomeService])
-], HomeComponent);
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+HomeService = __decorate([
+    core_1.Injectable(),
+    __metadata("design:paramtypes", [http_1.Http])
+], HomeService);
+exports.HomeService = HomeService;
+//# sourceMappingURL=home.service.js.map
