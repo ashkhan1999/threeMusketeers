@@ -1,0 +1,82 @@
+.add-appointment {
+	color: white;
+	background-color: #01D1D9;
+	padding: 10px 16px;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+    left: 570px;
+} 
+.calendar-container {
+	background-color: white;
+	width: 715px;
+	height: 320px; 
+    border-radius: 5px;
+    position: relative;
+    left: 8px;
+}
+.day-week-month {
+    font-size: 16px;
+	margin-left: 30px;
+	color: #2F6A75;
+	position: relative;
+	top: 25px;
+	border-bottom: 4px solid #E9EAEA;
+	width: 640px;
+}
+.sections {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:white;
+    color: #01D1D9;
+    font-size: 16px;
+    padding-left: 0px; 
+    margin-right: 30px;
+}
+#active-section {
+    color: #2F6A75;
+    border-bottom: 4px solid #2F6A75;
+    margin-bottom: -4px; 
+}
+.weekAppointments {
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+}
+.current-week {
+    font-size: 22px;
+}
+.days{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 0px;
+}
+.days li {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 60px 20px 0px;
+    border-left: 1px solid rgba(233,234,234, 0.7);
+    border-right: 1px solid rgba(233,234,234, 0.7);
+    line-height: 20px;
+}
+.appForDay {
+    list-style-type: none;
+    font-size: 0px;
+}
+.appForDay li {
+    display: inline-block;
+    font-size: 14px;
+    max-width: 100px;
+    background-color: blue;
+    position: relative;
+    left: 58px;
+    padding-right: 30px;
+    border-left: 1px solid rgba(233,234,234, 0.7);
+    border-right: 1px solid rgba(233,234,234, 0.7);
+}

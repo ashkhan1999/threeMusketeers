@@ -1,0 +1,14 @@
+[{       
+        "week": "November 3-7, 2014",
+        "days": [{ 
+            "mon": "Monday 3",
+            "tue": "Tuesday 4",
+            "wed": "Wednesday 5",
+            "th": "Thursday 6",
+            "fri": "Friday 7"
+        }],
+       "appForDay": [{
+         "appTue":"My appointment with Mr. Vasquez 10:30",
+         "appWed":"Follow up with Mr. Vasquez 11:30"
+       }]
+}]

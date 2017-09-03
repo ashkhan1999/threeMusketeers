@@ -1,0 +1,31 @@
+<h2> Appointments </h2>
+<button class="add-appointment"> Add an Appointment </button>
+
+<div class="calendar-container"> 
+
+    <div class="day-week-month"> 
+        <button class="sections" routerLink="/home"> <b> Today </b> </button> 
+        <button class="sections" routerLink="/appointment" id="active-section"> <b> Week </b> </button>
+        <button class="sections"> <b> Month </b> </button>
+    </div>
+    <div>
+    
+    </div>
+<div *ngFor="let d of data | async" class="weekAppointments">
+ <p class="current-week"> {{d.week}} </p> 
+      <ul *ngFor="let days of d.days" class="days">
+          <li> {{days.mon}} </li>
+          <li> {{days.tue}} </li>
+          <li> {{days.wed}} </li>
+          <li> {{days.th}} </li>
+          <li> {{days.fri}} </li>
+      </ul>
+      <ul *ngFor="let apps of d.appForDay" class="appForDay">
+            <li> {{apps.appMon}} </li>
+            <li> {{apps.appTue}} </li>
+            <li> {{apps.appWed}} </li>
+            <li> {{apps.appTh}} </li>
+            <li> {{apps.appFri}} </li>
+        </ul>
+</div> 
+</div>
