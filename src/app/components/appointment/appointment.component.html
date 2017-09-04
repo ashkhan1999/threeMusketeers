@@ -5,6 +5,17 @@
 <div class="container">
 	<div class="greyspace">
 		<div class="selected">Appointments<router-outlet></router-outlet></div>
+		<button class="add-appointment"> Add an Appointment </button>
+		<div class="calendar-container"> 
+			
+				<div class="day-week-month"> 
+					<button class="sections" routerLink="/home"> <b> Today </b> </button> 
+					<button class="sections" routerLink="/appointment" id="active-section"> <b> Week </b> </button>
+					<button class="sections"> <b> Month </b> </button>
+				</div>
+				
+				
+				</div>		
 			<div class="calendarofevents"></div>
 				<div class="unconfirmed"> Unconfirmed</div>
 				<div *ngFor = "let appointment of appointmentList | async" class="month">{{appointment.month}}</div>

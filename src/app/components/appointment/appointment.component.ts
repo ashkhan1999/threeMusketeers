@@ -11,7 +11,7 @@ import { Appointment } from '../../services/appointment.service';
   providers: [AppointmentService]
 })
 export class AppointmentComponent {
-  public appointmentList: any[]; // TODO: Appointment array
+  appointmentList: Observable<Array<any>>; 
 
   constructor(appointmentService: AppointmentService) {
     this.appointmentList = appointmentService.getInfo();
