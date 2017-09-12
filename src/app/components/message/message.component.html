@@ -1,64 +1,64 @@
 <!doctype html>
 <html>
-    <head>
-        <link rel="stylesheet" href="message.component.css">
-    </head>
-    <body> 
-        <p class="title">Messages</p>   
-        <div class="context">
-            <p class="status">UNREAD</p>
-            <div *ngFor="let message of messages">
-                <div *ngIf="!message.isRead" class="unisRead">
-                    <div class="msg" >
-                        <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.sender}}</p>
-                        <p class='sender'>{{message.sender}}</p>
-                        <p class="messageText">{{message.mtext}}</p>
-                        <p class="more">more &#62;</p>
-                    </div>
-                </div>
-            </div>
-            <p class="status">PAST</p>
-            <div *ngFor="let i=index">
-                <div *ngIf="i<=10; else moreThanTen">
-                    <div *ngFor="let message of messages">
-                        <div *ngIf="message.isRead" class="isRead">
-                            <div class="msg">
-                                <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
-                                <p class='sender'>{{message.sender}}</p>
-                                <p class="messageText">{{message.mtext}}</p>
-                                <p class="more">more &#62;</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div #moreThanTen>
-                <div *ngIf="!moreMessages">
-                    <div *ngFor="let message of messages | slice:0:10">
-                        <div *ngIf="message.isRead" class="isRead">
-                            <div class="msg">
-                                <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
-                                <p class='sender'>{{message.sender}}</p>
-                                <p class="messageText">{{message.mtext}}</p>
-                                <p class="more">more &#62;</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div *ngIf="moreMessages">
-                        <div *ngFor="let message of messages">
-                            <div *ngIf="message.isRead" class="isRead">
-                                <div class="msg">
-                                    <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
-                                    <p class='sender'>{{message.sender}}</p>
-                                    <p class="messageText">{{message.mtext}}</p>
-                                    <p class="more">more &#62;</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <div class="viewMore" *ngIf="messages?.length > 10" (click)="showMore()">{{moreMessages ? "View Less" : "View More"}}</div>
-            </div>                
+<head>
+  <link rel="stylesheet" href="message.component.css">
+</head>
+<body>
+<p class="title">Messages</p>
+<div class="context">
+  <p class="status">UNREAD</p>
+  <div *ngFor="let message of messages">
+    <div *ngIf="!message.isRead" class="unisRead">
+      <div class="msg" >
+        <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.sender}}</p>
+        <p class='sender'>{{message.sender}}</p>
+        <p class="messageText">{{message.mtext}}</p>
+        <p class="more" [routerLink]="['/conversation']" [queryParams]="{id:message.doctorId}">more &#62;</p>
+      </div>
+    </div>
+  </div>
+  <p class="status">PAST</p>
+  <div *ngFor="let i=index">
+    <div *ngIf="i<=10; else moreThanTen">
+      <div *ngFor="let message of messages">
+        <div *ngIf="message.isRead" class="isRead">
+          <div class="msg">
+            <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
+            <p class='sender'>{{message.sender}}</p>
+            <p class="messageText">{{message.mtext}}</p>
+            <p class="more" [routerLink]="['/conversation']" [queryParams]="{id:message.doctorId}">more &#62;</p>
+          </div>
         </div>
-    </body>
+      </div>
+    </div>
+  </div>
+  <div #moreThanTen>
+    <div *ngIf="!moreMessages">
+      <div *ngFor="let message of messages | slice:0:10">
+        <div *ngIf="message.isRead" class="isRead">
+          <div class="msg">
+            <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
+            <p class='sender'>{{message.sender}}</p>
+            <p class="messageText">{{message.mtext}}</p>
+            <p class="more" [routerLink]="['/conversation']" [queryParams]="{id:message.doctorId}">more &#62;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div *ngIf="moreMessages">
+      <div *ngFor="let message of messages">
+        <div *ngIf="message.isRead" class="isRead">
+          <div class="msg">
+            <p><b>Sent {{message.date}}</b>  <b>&#183;</b>  Last message was from {{message.isAnswered ? "you" : message.sender}}</p>
+            <p class='sender'>{{message.sender}}</p>
+            <p class="messageText">{{message.mtext}}</p>
+            <p class="more" [routerLink]="['/conversation']" [queryParams]="{id:message.doctorId}">more &#62;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="viewMore" *ngIf="messages?.length > 10" (click)="showMore()">{{moreMessages ? "View Less" : "View More"}}</div>
+  </div>
+</div>
+</body>
 </html>

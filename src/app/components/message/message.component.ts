@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { MessageServices } from '../../services/message/message.service';
-import { Router } from '@angular/router';
-
 @Component({
   moduleId: module.id,
   selector: 'message',
@@ -11,24 +9,23 @@ import { Router } from '@angular/router';
 export class MessageComponent  {
   messages: Message[];
   moreMessages: boolean;
-  constructor(private messageService: MessageServices){
+  constructor(private messageService: MessageServices) {
     this.messageService.getMessages().subscribe(messages => {
       this.messages = messages;
     });
     this.moreMessages = false;
   }
 
-  showMore(){
-    if(this.moreMessages){
+  showMore() {
+    if (this.moreMessages) {
       return this.moreMessages = false;
-    } else{
+    } else {
       return this.moreMessages = true;
     }
   }
-
 }
 
-interface Message{
+interface Message {
   id: number;
   date: string;
   isAnswered: boolean;

@@ -8,9 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var http_1 = require("@angular/http");
+var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./components/home/home.component");
 var message_component_1 = require("./components/message/message.component");
+var conversation_component_1 = require("./components/conversation/conversation.component");
 var app_routing_1 = require("./app.routing");
 var AppModule = (function () {
     function AppModule() {
@@ -19,8 +21,8 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     core_1.NgModule({
-        imports: [platform_browser_1.BrowserModule, http_1.HttpModule, app_routing_1.routing],
-        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, message_component_1.MessageComponent],
+        imports: [platform_browser_1.BrowserModule, http_1.HttpModule, app_routing_1.routing, forms_1.FormsModule],
+        declarations: [app_component_1.AppComponent, home_component_1.HomeComponent, message_component_1.MessageComponent, conversation_component_1.ConversationComponent],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);

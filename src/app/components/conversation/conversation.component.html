@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="conversation.component.css">
+</head>
+<body>
+<div class="heading">
+  <span style="color:silver;">VIEW CONVERSATION</span>
+  <span routerLink="/messages" class="xButton">X</span>
+</div>
+<hr>
+<div class="messages">
+    <div *ngFor="let message of messages">
+      <div *ngIf="message.doctorId == queryId">
+        <div class="msgBody">
+          <div class="avatar"><img  src={{message.avatar}}></div>
+          <div class="message">{{message.mtext}}</div>
+  </div>
+  <div *ngIf="sendBtnClicked">
+    <div id="usrersMessage" class="msgBody">
+      <div class="avatar"><img src="../../../main.img/default-user-image.png" /></div>
+      <div class="message">{{usrMessage}}</div>
+    </div>
+  </div>
+  
+        </div>
+    </div>
+</div>
+<hr>
+<div style="float: bottom">
+  <div class="txtInput">
+    <img class="usrProfilePic" src="../../../main.img/default-user-image.png" />
+    <textarea id="textareaMessage" [(ngModel)]="usrMessage" (keypress)="changeBtnStatus()" class="txtArea" placeholder="Type a message to "></textarea>
+  </div>
+  <input type="submit" class="sendButton" (click)="sendMessage()" value="Send"/>
+</div>
+<p>{{User.msg}}</p>
+
+</body>
+</html>
